@@ -1,0 +1,105 @@
+/* font style for body */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/*  */
+*{
+    background-color: #FEE715FF;
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: 'Dancing Script', cursive;
+}
+*{
+    margin: 0%;
+}
+.navbar{
+    box-sizing: border-box;
+    padding-left: 29rem;
+    font-size: 2.9rem;
+    font-weight: bold;
+    padding-top: 20px;
+    margin: 0%;
+    height: 6rem;
+    color: white;
+    background-color: #115695;
+}
+
+.textarea{
+    padding-top: 0%;
+    padding-left: 20rem;
+}
+textarea {
+    width: 70vh;
+    margin: 20px;
+    height: 20vh;
+    border-width: 3px;
+    border-color: black;
+    font-size: 30px;
+    color: black;
+    padding-top: 0%;
+}
+#btn-translate {
+    background-color: #115695;
+    height: 75px;
+    width: 15rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    border-width: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+div {
+    margin: 1rem;
+}
+#output{
+    border: 1px solid black;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    padding: 1rem;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.output{
+    padding-left: 20rem;
+}
+.direction{
+    padding-top: 2px;
+}
+.instruction{
+    font-size: 35px;
+    padding-left: 22rem;
+    margin: 0%;
+}
+.image{
+   float: right;
+   height: 30rem;
+}
+.image{
+    width: 24%;
+    padding-top: 8rem;
+    border-radius: 10px;
+}
+ .second-image{
+     float: left;
+     height: 50%;
+     width: 24%;
+     padding-top: 10rem;
+ }
+ footer {
+    text-align: center;
+    background-color: #115695;
+    color: white;
+  }
+  .about{
+      background-color: #115695;
+      font-size: 3rem;
+      padding-bottom: 9px;
+      font-weight: bolder;
+      display: flex;
+      padding-left: 35rem;
+  }
+footer p{
+    background-color: #115695;
+    font-size: 2rem;
+    padding-bottom: 5.5rem;
+}
